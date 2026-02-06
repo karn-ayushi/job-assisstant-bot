@@ -1,3 +1,4 @@
+
 # Virtual environment
 venv/
 
@@ -10,3 +11,12 @@ __pycache__/
 
 # Streamlit secrets
 .streamlit/secrets.toml
+=======
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
