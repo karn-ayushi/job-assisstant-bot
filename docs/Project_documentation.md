@@ -69,6 +69,22 @@ User → Streamlit UI → Resume Processing → Skill Extraction → Embeddings 
 - Context-aware AI chatbot
 
 ---
-
 ## 8. Folder Structure
-(To be updated based on implementation)
+
+Job-Application-Assistant-Bot/
+│
+├── app.py                  
+├── utils/
+│   ├── pdf_reader.py           
+│        
+├── nlp/
+│   ├── skill_extractor.py    
+│   
+├── rag/
+│   └── chatbot.py              
+
+├── requirements.txt           
+├── README.md                   
+├── PROJECT_DOCUMENTATION.md    
+└── .gitignore                
+
